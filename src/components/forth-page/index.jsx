@@ -7,7 +7,6 @@ import HeartLine from "../../assets/image/heartline.png";
 import Photof3 from "../../assets/image/photof3.jpg";
 import Bant from "../../assets/image/bant.png";
 import LineAes from "../../assets/image/lineaes.png";
-import AttendanceGuests from "../AttendanceGuests/index";
 
 export const ForthPage = () => {
   return (
@@ -38,14 +37,12 @@ export const ForthPage = () => {
         >
           Ձեզ հետ բերեք ՍԵՐ, ժպիտներ ու անսահման դրական էմոցիաներ: <br />
           <br />
-          <br />
           Խնդրում ենք Ձեր մասնակցությունը հաստատել մինչև Հունիսի 20։
         </Flexible>
         <hr className="mx-auto my-8 w-[300px]" />
       </div>
       <Container>
         <img src={Photof3} className="rounded-[15px] mb-10" alt="" />
-        <AttendanceGuests />
       </Container>
     </ForthPagePart>
   );
