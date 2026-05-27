@@ -11,7 +11,7 @@ import { ThirdPagePartCalendar } from "../third-page/styled";
 import { TextShadow } from "../TextShadow";
 
 export const SecondPage = () => {
-  const weddingDate = new Date(2026, 5, 3, 0, 0, 0);
+  const weddingDate = new Date(2026, 6, 3, 0, 0, 0);
 
   const calculateTimeLeft = () => {
     const now = new Date();
@@ -91,20 +91,35 @@ export const SecondPage = () => {
         </div>
       </Container>
       <Container>
-        <div className="flex h-[100vh] gap-[20px] justify-around">
-          <div>
-            <img src={Photo2} className="h-[100vh] w-full" />
+        <div className="flex h-[100vh] gap-[20px] justify-between">
+          {/* Ձախ մեծ նկար - զբաղեցնում է լայնության 60%-ը */}
+          <div className="w-[40%] h-full">
+            <img src={Photo2} className="h-full w-full" />
           </div>
-          <div className="flex flex-col gap-2">
-            <img src={PhotoGroup1} alt="" className="h-1/3 object-cover rounded-[10px]" />
-            <img src={PhotoGroup2} alt="" className="h-1/3 object-cover rounded-[10px]" />
-            <img src={PhotoGroup3} alt="" className="h-1/3 object-cover rounded-[10px]" />
+
+          {/* Աջի 3 նկարները - զբաղեցնում են լայնության 40%-ը */}
+          <div className="flex flex-col gap-2 w-[60%] h-full">
+            <img
+              src={PhotoGroup1}
+              alt=""
+              className="h-1/3 object-cover rounded-[10px]"
+            />
+            <img
+              src={PhotoGroup2}
+              alt=""
+              className="h-1/3 object-cover rounded-[10px]"
+            />
+            <img
+              src={PhotoGroup3}
+              alt=""
+              className="h-1/3 object-cover rounded-[10px]"
+            />
           </div>
         </div>
       </Container>
       <Container>
         <h2 className="mt-10" data-aos="zoom-in">
-          Հունիս
+          Հուլիս
         </h2>
         <ThirdPagePartCalendar
           data-aos="fade-up"
@@ -121,14 +136,14 @@ export const SecondPage = () => {
             </div>
           ))}
           {[...Array(37)].map((_, i) =>
-            i > -1 && i <= 29 ? (
-              <div className={i + 1 == 3 ? "special" : ""}>{i + 1}</div>
+            i > 1 && i <= 32 ? (
+              <div className={i  - 1 == 3 ? "special" : ""}>{i - 1}</div>
             ) : (
               <div className=""></div>
             ),
           )}
         </ThirdPagePartCalendar>
-        
+
         <img src={PhotoF1} alt="" className="rounded-[15px] mt-[50px]" />
       </Container>
     </SecondPagePart>

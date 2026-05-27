@@ -15,8 +15,8 @@ export const FirstPage = () => {
           >
             <h4>Հարսանյաց Հրավեր</h4>
             <div data-aos="fade-up" className="text-center absolute bottom-33">
-              <h3>Ռոբերտ և Ժասմին</h3>
-              <h4>03.06.2026</h4>
+              <h3>Սասուն և Սուսաննա</h3>
+              <h4>03.07.2026</h4>
             </div>
           </div>
         </FirstPagePartContext>

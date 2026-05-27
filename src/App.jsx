@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { FirstPage } from "./components/first-page";
 import { ForthPage } from "./components/forth-page";
 import { LastFooterPage } from "./components/last-footer-page";
-import { MusicPage } from "./components/music-page";
 import { SecondPage } from "./components/second-page";
 import { ThirdPage } from "./components/third-page";
 import AOS from "aos";
@@ -26,7 +25,6 @@ function App() {
 
   return (
     <>
-      <MusicPage />
       <FirstPage />
       <SecondPage />
       <ThirdPage />
