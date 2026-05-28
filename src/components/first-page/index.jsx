@@ -13,8 +13,8 @@ export const FirstPage = () => {
             className="mt-7 text-[#ffff] maintext"
             style={{ textShadow: "5px 7px 9px #000" }}
           >
-            <h4>Հարսանյաց Հրավեր</h4>
-            <div data-aos="fade-up" className="text-center absolute bottom-33">
+            <div data-aos="fade-up" className="text-center absolute bottom-28">
+              <h4 style={{ fontSize: "20px" }} >Հարսանյաց Հրավեր</h4>
               <h3>Սասուն և Սուսաննա</h3>
               <h4>03.07.2026</h4>
             </div>
