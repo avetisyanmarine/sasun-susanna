@@ -6,7 +6,7 @@ import BlockImage from "../../assets/image/blockimage.jpg";
 import PhotoF1 from "../../assets/image/photof1.jpg";
 import PhotoGroup1 from "../../assets/image/groupphoto1.jpg";
 import PhotoGroup2 from "../../assets/image/groupphoto2.jpg";
-import PhotoGroup3 from "../../assets/image/groupphoto3.jpg";
+import PhotoGroup3 from "../../assets/image/photof3.jpg";
 import { ThirdPagePartCalendar } from "../third-page/styled";
 import { TextShadow } from "../TextShadow";
 
