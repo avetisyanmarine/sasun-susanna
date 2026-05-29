@@ -20,6 +20,18 @@ export const ThirdPage = () => {
           <ThirdPageBlock
             // uniqueMargin={50}
             imageSize={80}
+            number={"11:00"}
+            bigText="ՓԵՍԱՅԻ ՏՈՒՆ"
+          />
+          <ThirdPageBlock
+            // uniqueMargin={50}
+            imageSize={80}
+            number={"12:30"}
+            bigText="ՀԱՐՍԻ ՏՈՒՆ"
+          />
+          <ThirdPageBlock
+            // uniqueMargin={50}
+            imageSize={80}
             number={"16:00"}
             bigText="ՊՍԱԿԱԴՐՈՒԹՅՈՒՆ"
             smallText="Մուղնու Սուրբ Գևորգ Եկեղեցի"
