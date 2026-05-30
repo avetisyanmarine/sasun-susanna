@@ -28,7 +28,6 @@ export const ForthPage = () => {
       <img src={LineAes} alt="" className="w-full" />
 
       <div className="text-center my-8">
-        <h2>Դետալներ</h2>
         <img src={HeartLine} className="mx-auto my-8 w-[300px]" />
         <Flexible
           className=" font-[600] px-5"
